@@ -1,0 +1,25 @@
+package com.cruds.calculator.calculator;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestCalculator {
+
+	Calculator c;
+	
+	@Test
+	public void testSum() {
+		c.add(new Calculator(10, 20));
+		assertTrue(true);
+
+		
+	}
+	
+	@Test
+	public void testSub(){
+		c.sub(new Calculator(20, 10));
+		assertTrue(true);
+	}
+
+}
