@@ -10,6 +10,7 @@ public class TestCalculator {
 	
 	@Test
 	public void testSum() {
+		c = new Calculator();
 		c.add(new Calculator(10, 20));
 		assertTrue(true);
 
@@ -18,6 +19,7 @@ public class TestCalculator {
 	
 	@Test
 	public void testSub(){
+		c =  new Calculator(); 
 		c.sub(new Calculator(20, 10));
 		assertTrue(true);
 	}
