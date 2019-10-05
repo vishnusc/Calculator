@@ -39,7 +39,7 @@ public class Calculator {
 	}
 	
 	public void sub(Calculator c){
-		int subtraction = c.getA() + c.getB();
+		int subtraction = c.getA() - c.getB();
 		System.out.println("subtraction of two num =" + subtraction);
 	}
 	
